@@ -1,5 +1,5 @@
 * {
-  font-family: "Roboto";
+  font-family: serif;
 }
 
 html {
@@ -33,6 +33,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background: var(--background);
+  background-color: black;
 }
 
 @keyframes breathing {
@@ -235,6 +236,7 @@ footer {
   width: 40rem;
   color: var(--text-secondary);
   max-width: calc(100% - 4rem);
+  background-color: black;
 }
 
 .games {
